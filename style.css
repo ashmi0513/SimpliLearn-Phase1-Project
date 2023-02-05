@@ -1,0 +1,129 @@
+/* Common Style */
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    margin:1rem;
+}
+
+.section-heading{
+    color: #03001C;    
+    font-size: 3rem;
+    font-weight: 600; 
+    text-align: center;
+    padding: 2rem 0;
+    
+}
+
+.image{
+    margin-left: 3rem;
+    width: 15rem;
+    height: 15rem;
+    overflow: hidden;
+}
+
+.nv-color{
+  background-color: aliceblue;  
+  color: #03001C;
+  font-weight: 400;
+}
+
+/* Home Section Style */
+
+.home-banner{
+    background-color: #03001C;
+}
+
+.home-banner p{
+    color:aliceblue;
+    font-size: 4rem;
+    padding: 7% 14%;
+    text-align: center;
+    font-weight:200;
+}
+
+/* About Section Style */
+
+.about-heading{
+    color: #301E67;
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-weight: 400;
+    justify-content: center;
+}
+
+.about-content{
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    justify-content: center; 
+    color: #03001C;  
+}
+
+/* Blog Section Style */
+
+.blog-post{
+    margin:0.9rem;
+    padding: 0.5rem;
+    border-radius: 3rem;
+    border: #03001C double 0.1rem;
+    background-color: aliceblue;
+    justify-content: center;
+}
+
+.blog-post h3{
+    color: #03001C;
+    padding:0.2rem;
+    font-size: 1.5rem;
+}
+
+.blog-post a{
+    text-decoration: none;
+}
+
+.blog-post p{
+    color:#5B8FB9;
+}
+
+/* Add Blog Section Style */
+
+.new-blog{
+    padding:1rem;
+    font-weight: 400;
+    border-radius: 2rem;
+    border: #03001C double 0.1rem;
+    background-color: aliceblue;
+}
+
+.new-blog textarea{
+    resize: none;
+}
+
+/* Footer Style */
+
+footer{
+    background-color: #03001C;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+    color: white;
+    text-align: center;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    padding:1rem;
+    justify-content: center;
+}
+
+footer li{
+    list-style: none;
+    margin:0.9rem;
+    font-size: 3rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
